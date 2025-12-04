@@ -160,7 +160,20 @@ nav {
       overflow: hidden;
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
       margin-bottom: 28px;
+      animation: animate-profile-picture 800ms 1s;
       padding-top: 5px;
+   }
+
+   @keyframes animate-profile-picture {
+      0% {
+         transform: scale(0);
+      }
+      80% {
+         transform: scale(1.1);
+      }
+      100% {
+         transform: scale(1);
+      }
    }
 
    .about-me__picture {
@@ -416,19 +429,21 @@ nav {
 
 /* Small Phones */
 @media (max-width: 480px) {
-   git 
+   .nav__link:not(:last-child) {
       display: none;
    }
 
    .project__description {
       padding: 0;
+      left: 0;
+      width: 100%;
    }
 
    .project__description--para {
       display: none;
    }
 
-   .project__description__links {
+   .project__description--links {
       display: flex;
       justify-content: center;
    }
