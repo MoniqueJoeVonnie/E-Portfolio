@@ -416,10 +416,34 @@ nav {
 
 /* Small Phones */
 @media (max-width: 480px) {
-   .nav__link:not(:last-child) {
+   git 
       display: none;
    }
+
+   .project__description {
+      padding: 0;
+   }
+
+   .project__description--para {
+      display: none;
+   }
+
+   .project__description__links {
+      display: flex;
+      justify-content: center;
+   }
+
+   .project__description--title {
+      font-size: 32px;
+      line-height: 1;
+   }
+
+   .project__description--sub-title {
+      text-align: center;
+      margin: 12px 0;
+   }
 }
+
 
   
 
