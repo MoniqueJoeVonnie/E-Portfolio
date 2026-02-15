@@ -8,6 +8,7 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "Tuturiol EPortfolio"
+		"liveServer.settings.multiRootWorkspaceName": "Tuturiol EPortfolio",
+		"liveServer.settings.port": 5502
 	}
 }
